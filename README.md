@@ -1,7 +1,7 @@
 # mysql-rest
 exemplo spring boot consumindo banco de dados mysql
 
-# build container docker
+#build container docker
 docker build -t mysql-rest .
 
 #run container docker
