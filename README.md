@@ -9,8 +9,11 @@ docker run -p 5000:8080 mysql-rest
 
 # run mysql container
 sudo docker run --name=mysql -e MYSQL_ROOT_PASSWORD=senha -d mysql
+
 sudo docker exec -it mysql bash
+
 mysql -u root -psenha
+
 ALTER USER root IDENTIFIED WITH mysql_native_password BY 'senha';
 
 # run phpmyadmin 
